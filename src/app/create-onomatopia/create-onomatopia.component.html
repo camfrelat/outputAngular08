@@ -1,0 +1,10 @@
+<form>
+  <div>
+    <label>
+      Add an onomatopia
+      <input type="text" name="onomatopia" [formControl]="newOnomatopia" />
+    </label>
+  </div>
+
+  <button (click)="createOnomatopia()" type="button">Submit</button>
+</form>
